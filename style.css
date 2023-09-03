@@ -10,6 +10,76 @@
   position: relative;
 }
 
+.custom-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.custom-navbar-container {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-direction: row;
+}
+
+.custom-nav-down {
+  color: #fff;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+  background: var(--primaryskyblue, #2f80ed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 562px;
+}
+
+.custom-nav-button {
+  color: var(--primaryskyblue, #2f80ed);
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 15px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--primaryskyblue, #2f80ed);
+  background-color: white;
+  margin-left: 28px;
+}
+
+.custom-nav-line {
+  width: 1px;
+  height: 32px;
+  background: #dadada;
+  margin: 10px;
+}
+
+.custom-nav-left-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-nav-logo-text {
+  color: #012555;
+  font-family: "Bai Jamjuree" sans-serif;
+  font-size: 21.714px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 175% */
+  letter-spacing: -0.869px;
+}
+
 .header-left {
   display: flex;
   align-items: center;
